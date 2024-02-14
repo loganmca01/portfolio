@@ -4,8 +4,21 @@ body {
     border: solid rgb(210, 207, 207) 90px;
 }
 
+a {
+    padding: 1%;
+}
+
 p {
     padding: 1%;
+}
+
+p.no-bottom-pad {
+    padding-bottom: 0px;
+}
+
+p.indent {
+    margin-left: 20px;
+    padding-top: 0px;
 }
 
 h1 {
@@ -29,6 +42,26 @@ h4 {
     font-size: 24px;
     padding-left: 1%;
     padding-top: 2%;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight:bold;
+    padding: 1%;
+}
+
+table {
+    margin: 1%;
+}
+
+th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid;
+    padding: 10px;
 }
 
 .navbar {
