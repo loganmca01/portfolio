@@ -50,30 +50,57 @@
         register transfer notation, then run the commands dictated in the instruction set in a virtual environment. <br>
         - Designed for use in Computer Organization class to introduce assembly concepts without
         full assembly syntax. <br>
-        - 2 main components:
+        - Two main components:
       </p>
 
       <p class = "indent">
         1. Instruction set parser: Takes a file input of instructions written in register transfer notation. Builds
         abstract syntax trees for each command, then puts them into symbol table for use in the user environment.<br>
         2. User command interpreter: Takes user commands (file or stdin) and runs them in virtual environment
-        with an array of chars representing the stack, and variables for registers.
+        with an array of chars representing the stack, and variables for registers.<br><br>
       </p>
 
       <h5>Computer Organizations Labs</h5>
 
       <p>
-        <a href="">Lab 4 Repo</a><br>
-        <a href="">Lab 5 Repo</a>
+        Code available upon request,
+        unable to share publically because projects are still given in course.<br><br>
+        - LAB 4: Focused around building fetch-decode-execute cycle for toy assembly code. No string.h allowed,
+        required to build any string parsing or comparison functions ourselves. No stack, just registers in simulated environment.<br>
+        - LAB 5: Focused on expanding virtual environment from lab 4 with a more complex assembly language.
+        Created "stack" with array of memory contents structs, which were built to store all relevant information
+        about an item in memory, such as the command and arguments if the memory held an instruction. <br>
+        - Both labs unit tested, and created with no memory leaks.
       </p>
 
       <h5>Database Management Systems Project</h5>
 
       <a href="">Design Document PDF</a>
 
-      <p>
-        test
+      <p class="no-bottom-pad">
+        - Given the sources below, we were tasked with creating a visualization tool for
+        Pennsylvania school data, incorporating as much as we could to fit our needs.<br>
+        - My group opted to create as broad of a tool as possible, allowing the user freedom to compare
+        whatever factors they wanted graphically as long as we had data for it.<br>
+        - My personal role in the group was database design. I created, implemented, and uploaded data to 
+        our MySQL database, with the structure expanded on in the design document linked above. Additionally I 
+        contributed to data cleaning, and writing the dynamic queries for the graphing utility.<br><br>
       </p>
+
+      <p class="no-bottom-pad">
+        Data sources:
+      </p>
+      <a href="https://futurereadypa.org/Home/DataFiles#">futurereadypa</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/LoanCanLowIncome/Pages/PublicSchools.aspx">low income public</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/LoanCanLowIncome/Pages/PrivateSchools.aspx">low income private</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/Assessments/Pages/Keystone-Exams-Results.aspx">keystone</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/Assessments/Pages/PSSA-Results.aspx">pssa</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/Graduates/Pages/default.aspx">graduates</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/Dropouts/Pages/default.aspx">dropouts</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/Enrollment/Pages/PublicSchEnrReports.aspx">public enrollment</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/Enrollment/Pages/PrivateNPEnrRpts.aspx">private enrollment</a><br>
+      <a href="https://www.education.pa.gov/DataAndReporting/ProfSupPers/Pages/ProfStaffSummary.aspx">staff summary</a><br>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
