@@ -47,5 +47,6 @@ h4 {
 .navbar-nav .nav-link {
     margin-right: 1rem;
     color: #514d4d;
-    align-items: start;
+    align-self: start;
+    align-content: start;
 }
