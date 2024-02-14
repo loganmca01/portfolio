@@ -37,7 +37,6 @@ h4 {
     padding: 1rem;
     border-bottom: solid 2px rgb(210, 207, 207);
     border-top: solid 2px rgb(210, 207, 207);
-    align-content: baseline;
 }
   
 .navbar-brand {
@@ -48,4 +47,5 @@ h4 {
 .navbar-nav .nav-link {
     margin-right: 1rem;
     color: #514d4d;
+    align-items: start;
 }
