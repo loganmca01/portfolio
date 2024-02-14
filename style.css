@@ -1,0 +1,50 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f8f8f8;
+    border: solid rgb(210, 207, 207) 90px;
+}
+
+p {
+    padding: 1%;
+}
+
+h1 {
+    font-size: 36px;
+    padding-left: 1%;
+    padding-top: 0.5%;
+}
+
+h2 {
+    font-size: 16px;
+    padding-left: 1%;
+}
+
+h3 {
+    font-size: 16px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+h4 {
+    font-size: 24px;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+
+.navbar {
+    background-color: #f8f8f8;
+    color: #fff;
+    padding: 1rem;
+    border-bottom: solid 2px rgb(210, 207, 207);
+    border-top: solid 2px rgb(210, 207, 207);
+}
+  
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+    color: #514d4d;
+}
