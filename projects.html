@@ -60,6 +60,23 @@
         with an array of chars representing the stack, and variables for registers.<br><br>
       </p>
 
+      <p>
+        Example:<br><br>
+        define ret {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;SP := BP;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;BP := (SP);<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;SP := SP + 2;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;PC := (SP);<br>
+        }<br><br>
+
+        ASTs list created:
+      </p>
+
+      <img src="images/ast_sample.svg">
+
+
+
+
       <h5>Computer Organizations Labs</h5>
 
       <a href="https://github.com/loganmca01/cs203_lab4_headers" target="_blank">Lab 4 Repo (headers only)</a><br>
