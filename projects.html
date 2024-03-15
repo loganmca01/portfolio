@@ -46,18 +46,10 @@
       <a href="https://github.com/loganmca01/toy_assembly_interpreter" target="_blank">GitHub Repo</a>
 
       <p class = "no-bottom-pad">
-        &#x2022; Toy assembly interpreter where the user can enter an instruction set using a custom, easy-to-read 
-        register transfer notation, then run the commands dictated in the instruction set in a virtual environment. <br>
-        &#x2022; Designed for use in Computer Organization class to introduce assembly concepts without
-        full assembly syntax. <br>
-        &#x2022; Two main components:
-      </p>
-
-      <p class = "indent">
-        1. Instruction set parser: Takes a file input of instructions written in register transfer notation. Builds
-        abstract syntax trees for each command, then puts them into symbol table for use in the user environment.<br>
-        2. User command interpreter: Takes user commands (file or stdin) and runs them in virtual environment
-        with an array of chars representing the stack, and variables for registers.<br><br>
+        &#x2022; Used Flex and Bison (Lex and Yacc) to generate a scanner and parser that break down custom assembly instruction sets into command structs with abstract syntax trees dictating function. <br>
+        &#x2022; Created virtual user environment where custom instructions can be run with simulated registers, stack memory, and code memory. <br>
+        &#x2022; Designed for use in computer organization/architecture classes to introduce assembly concepts without
+        full assembly syntax, and in an environment where the impact of instructions on memory can be easily understood. <br>
       </p>
 
       <p>
